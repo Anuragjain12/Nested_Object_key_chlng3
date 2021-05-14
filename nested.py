@@ -2,7 +2,7 @@
 # encoding: utf-8
 
 #object = raw_input("Please enter the object:")
-key = raw_input("Please enter the key:")
+key = raw_input("Please enter the key in the form x/y/z:")
 key_new = key.replace('/','')
 key_final=list(key_new)
 print(key_final)
